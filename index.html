@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Sorting Visualizer</h1>
+    <div id="container">
+    </div>
+    <div class="initialize">
+        <button class="initBtn" onclick="init()">Initialize</button>
+    </div>
+    <div class="s">
+
+        <div class="Sorts">
+    
+            <div class="Bubble Sort">
+                <h2>Bubble Sort</h2>
+                <div class="buttons">
+                    <button class = "sortBtn" onclick="play(1)">Play</button>
+                </div>
+            </div>
+            <div class="Selection Sort">
+                <h2>Selection Sort</h2>
+                <div class="buttons">
+                    <button class = "sortBtn" onclick="play(2)">Play</button>
+                </div>
+            </div>
+            <div class="Insertion Sort">
+                <h2>Insertion Sort</h2>
+                <div class="buttons">
+                    <button class = "sortBtn" onclick="play(3)" >Play</button>
+                </div>
+            </div>
+            <div class="Merge Sort">
+                <h2>Quick Sort</h2>
+                <div class="buttons">
+                    <button class = "sortBtn" onclick="play(4)">Play</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

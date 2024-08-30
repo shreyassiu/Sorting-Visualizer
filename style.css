@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-color: rgba(54, 48, 48, 0.795);
+}
+h1{
+    padding:15px;
+    text-align: center;
+}
+#container{
+    /* border: 2px solid rgba(54, 48, 48, 0.795); */
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-around;
+    padding: 30px 0px;
+    margin : 0px 100px;
+    align-items: flex-end;
+    height: 200px;
+}
+.bar{
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap : 15px;
+}
+.s{
+    display: flex;
+    justify-content: center;
+}
+.Sorts{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 750px;
+}
+.Sort{
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    display: flex;
+    width: 200px;
+    align-items: center;
+    flex-direction: column;
+    gap:5px;
+    padding: 15px 23px;
+}
+.initialize{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.initialize button{
+    padding: 10px;
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(165, 165, 156);
+}
+button:hover{
+    cursor: pointer;
+}

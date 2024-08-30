@@ -1,6 +1,6 @@
-const n = 10;
+const n = 20;
 const arr = [];
-let time = 200;
+let time = 20;
 let TimeoutId = null;
 init();
 let audioCtx = null;

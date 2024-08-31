@@ -1,7 +1,10 @@
-const n = 20;
-const arr = [];
-let time = 50;
+let n = 10;
+let arr = [];
+let time = 140;
 let TimeoutId = null;
+function setTime(t){
+    time = t;
+}
 init();
 let audioCtx = null;
 function playNote(freq) {
@@ -24,6 +27,8 @@ function playNote(freq) {
     node.connect(audioCtx.destination);
 }
 function init() {
+    arr = [];
+    n = document.getElementById('n-input').value;
     if (TimeoutId) {
         clearTimeout(TimeoutId);
         TimeoutId = null;
